@@ -1,0 +1,117 @@
+.development {
+  margin-top: rem(80);
+  margin-left: rem(208);
+  margin-bottom: rem(150);
+  position: relative;
+}
+
+.development__list {
+  display: flex;
+  gap: rem(50);
+}
+
+.devepoment__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: rem(18);
+}
+.development__name {
+  font-family: "inter";
+  font-weight: 800;
+  font-size: rem(24);
+  line-height: rem(29);
+  color: $color-white-60;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.development__name--active {
+  color: $color-light-white;
+}
+.development__line {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(82, 82, 82, 0.225) 25%,
+    rgba(72, 72, 72, 0.5) 100%
+  );
+  height: rem(2);
+  width: rem(1379);
+  position: absolute;
+  left: 0;
+  top: rem(69);
+}
+
+.development__point-wrap {
+  display: flex;
+}
+.development__point {
+  width: rem(48);
+  height: rem(48);
+  background: radial-gradient(
+    32.82% 32.82% at 50% 49.83%,
+    #ffffff 18%,
+    #ff8e8e 19%,
+    #ff0000 20%,
+    #ff0000 22%,
+    #ff0000 25%,
+    #d30000 30%,
+    #a20000 37%,
+    #770000 45%,
+    #520000 52%,
+    #340000 60%,
+    #1d0000 68%,
+    #0d0000 77%,
+    #030000 87%,
+    #000000 100%
+  );
+  background-blend-mode: screen;
+  mix-blend-mode: screen;
+}
+
+.development__name-number {
+  position: absolute;
+  right: rem(1460);
+  top: rem(70);
+}
+.development__name--big {
+  font-weight: 800;
+  font-size: rem(50);
+  line-height: rem(61);
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.1);
+  writing-mode: vertical-lr;
+  transform: scale(-1, -1);
+  position: absolute;
+    left: rem(57);
+    top: rem(130);
+}
+
+.development__product {
+  display: flex;
+  flex-direction: column;
+  width: rem(752);
+  margin-left: rem(213);
+  margin-top: rem(-10);
+}
+
+.development__product-info {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: rem(176);
+  left: rem(1039);
+}
+
+.development__number-wrap {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: rem(250);
+  line-height: rem(303);
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.03);
+}

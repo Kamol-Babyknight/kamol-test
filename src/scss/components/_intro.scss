@@ -1,0 +1,74 @@
+.intro{
+  margin-left: rem(160);
+  margin-top: rem(187);
+  margin-bottom: rem(230);
+}
+.intro__info-wrap {
+  margin-bottom: rem(60);
+}
+.intro__text {
+  font-family: "montserrat";
+  font-weight: 700;
+  font-size: rem(48);
+  line-height: rem(58);
+  color: rgba(255, 0, 0, 1);
+}
+
+.intro__point-wrap {
+  width: rem(48);
+  height: rem(48);
+  background-blend-mode: screen;
+  mix-blend-mode: screen;
+}
+.intro__text--white {
+  color: rgba(255, 255, 255, 1);
+}
+.intro__text--gray {
+  font-size: rem(44);
+  font-weight: 500;
+  color: rgba(192, 190, 190, 1);
+  line-height: rem(54);
+}
+
+.intro__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: rem(50);
+  gap: rem(7);
+}
+
+.intro__item {
+  display: flex;
+  gap: rem(3);
+  align-items: center;
+}
+
+.intro__pride {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: rem(18);
+  line-height: rem(22);
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: rem(0.9);
+}
+
+.intro__order{
+  width: rem(351);
+  height: rem(67);
+  background-image: url("../images/calculation-bc-after.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  margin-left: rem(20);
+}
+
+.calculation-text {
+  font-family: "inter";
+  font-weight: 800;
+  font-size: rem(16);
+  line-height: rem(19);
+  letter-spacing: rem(1.5);
+  text-transform: uppercase;
+}

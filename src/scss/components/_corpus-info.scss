@@ -1,0 +1,22 @@
+.corpus-info{
+    display: flex;
+    flex-direction: column;
+    gap: rem(25);
+    margin-bottom: rem(50);
+}
+
+.corpus-info__product-about{
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: rem(24);
+    line-height: rem(29);
+    color: $color-light-white;
+}
+
+.corpus-info__product-description{
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: rem(16);
+    line-height: rem(24);
+    color: $color-light-white;
+}

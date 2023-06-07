@@ -1,0 +1,82 @@
+.benefits {
+  margin-left: rem(160);
+  min-height: rem(870);
+  position: relative;
+}
+
+.benefits__reason {
+  display: flex;
+  flex-direction: column;
+  gap: rem(40);
+  margin-bottom: rem(34);
+}
+
+.reason {
+  font-family: "inter";
+  font-size: rem(40);
+  font-weight: 800;
+  line-height: rem(48);
+  text-align: left;
+}
+
+.reason__red {
+  color: $color-red-solid;
+}
+
+.production {
+  font-family: "inter";
+  font-weight: 500;
+  font-size: rem(24);
+  line-height: rem(29);
+  color: $color-light-white;
+}
+
+.benefits__list-wrap{
+    width: rem(1226);
+    height: rem(393);
+    background-image: url('../images/list-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.benefits__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: rem(64);
+  padding-top: rem(47);
+  row-gap: rem(53);
+}
+
+.benefits__item {
+  display: flex;
+  padding: 0 rem(24);
+}
+
+.benefits__name {
+  font-family: "inter";
+  font-size: rem(18);
+  font-weight: 700;
+  line-height: rem(22);
+  color: $color-white;
+  text-transform: uppercase;
+}
+
+.benefits__description-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: rem(12);
+}
+.benefits__description {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: rem(16);
+  line-height: rem(24);
+  color: $color-light-white;
+}
+
+.benefits__tool{
+    position: absolute;
+    right: 0;
+    top: 0;
+}

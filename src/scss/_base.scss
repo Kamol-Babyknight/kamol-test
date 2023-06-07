@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: ($default-root-font-size) * 1px;
+  @include scalable-desktop {
+    font-size: vw($default-root-font-size);
+  }}
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  button{
+    border: none;
+    background: transparent;
+    width: 100%;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  h1,h2,h3{
+    margin: 0;
+  }
+li{
+ list-style-type: none;
+}
+  .site-container{
+    min-height: 100vh;
+    padding-top: rem(5);
+    background-image: url('../images/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter/Inter-ExtraBold.woff');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter/Inter-Bold_3.woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter/Inter-Medium.woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter/Inter-Regular.woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Bold.woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  
+  @font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Medium.woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .calculation-button {
+    width: rem(351);
+    height: rem(67);
+    background-image: url("../images/calculation-bc-after.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+ 
+
+
+
+
+

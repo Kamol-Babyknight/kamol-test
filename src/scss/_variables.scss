@@ -1,0 +1,15 @@
+@use "sass:math";
+// font-size
+$default-root-font-size:10;
+
+// breakpoints
+$min-desktop-size: 540px;
+$base-desktop-size: 1920px;
+$base-desktop-height:1024px;
+$max-desktop-height:1280px;
+$mobile-screen: 539.8px;
+$min-mobile-screen: 375px;
+$color-white: #FFFFFF;
+$color-red-solid: #FF0000;
+$color-light-white:rgba(255, 255, 255, 0.8);
+$color-white-60: rgba(255, 255, 255, 0.6);

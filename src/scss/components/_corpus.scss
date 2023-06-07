@@ -1,0 +1,23 @@
+.corpus{
+    display: flex;
+    gap: rem(16);
+}
+
+.corpus-active{
+    display: flex;
+    width: rem(752);
+    height: auto;
+    margin-bottom: rem(10);
+}
+
+.corpus__gold, .corpus__light, .corpus__grey{ 
+    display: flex;
+    width: rem(242);
+}
+
+.corpus__grey{
+    background-image: url('../images/svg/corpus-line.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

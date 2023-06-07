@@ -1,0 +1,24 @@
+.direction{
+    display: flex;
+    flex-direction: column;
+    gap: rem(40);
+    margin-left: rem(159);
+}
+
+.direction__text{
+    font-family: 'inter';
+    font-weight: 800;
+    font-size: rem(40);
+    line-height: rem(48);
+    color: $color-red-solid;
+}
+
+.direction__text--white{
+    color: $color-white;
+}
+.direction__text--gray{
+    color: $color-light-white;
+    font-weight: 500;
+    font-size: rem(24);
+    line-height: rem(29);
+}
